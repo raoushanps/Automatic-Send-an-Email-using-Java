@@ -1,0 +1,23 @@
+To send Email to Automatically from gmail account using Java...!!!!!
+
+
+
+Step 1. To send by gmail account you need to Allow less secure apps On.
+Link is given Below
+https://www.google.com/settings/security/lesssecureapps
+
+Step 2. Download mail.jar and activation.jar file and keep it in same folder where your programm is kept
+download link : https://www.javatpoint.com/src/mail/mailactivation.zip
+
+
+Step 3. Keep these jar file into same folder where your programm is.
+
+Step 4. Open command prompt and go to the java programm folder and and set class path for jar files.
+ command is given below...
+	set classpath=mail.jar;activation.jar;.;
+
+Step 5. now run your java file
+	a) javac filename.java
+	b) java filename
+
+Congratssss!!!! you mail sent successfully......
