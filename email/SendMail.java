@@ -41,7 +41,7 @@ public class SendMail{
  public static void main(String[] args) {    
      //from,password,to,subject,message 
 	//change from, password and to 
-     Mailer.send("demomailid570@gmail.com","demoid123","raoushan.nitk@gmail.com","Testing Mail","Email sent Successfully....!!!!");
+     Mailer.send("from","password","to","Suject","Message");
       
  }    
 }  
